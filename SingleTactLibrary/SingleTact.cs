@@ -219,7 +219,7 @@ namespace SingleTactLibrary
 
             PushSettingsToHardware();
 
-            Thread.Sleep(10); // Give it time to capture a new frame
+            Thread.Sleep(200); // Give it time to capture a new frame
 
             SingleTactFrame newFrame = ReadSensorData();
 
